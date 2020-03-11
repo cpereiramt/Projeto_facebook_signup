@@ -94,5 +94,11 @@ display: block;
 
 }
 
+table input{
+ width: 91%;
+ padding-right: -15px;
+ margin-right: -125px;
+}
+
 
 
