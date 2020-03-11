@@ -49,6 +49,10 @@ input, select {
   width: 35%;
 }
 
+.blocoDir input, select {
+  border-radius: 3pt;
+}
+
 .formCadastro {
   display: flex;
   flex-direction: column;
@@ -60,7 +64,6 @@ input, select {
   border-radius: 5%;
   color: #e9ebee;
   padding: 2px 5px;
-  
 }
 
 .registerBtn {
