@@ -50,3 +50,14 @@ input, select {
   background-color: #60A04E;
 }
 
+#flexContainer{
+display: block;
+}
+
+#facebook-networking{
+ display: flex;
+ width: 760px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
