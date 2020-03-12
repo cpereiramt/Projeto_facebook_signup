@@ -100,5 +100,9 @@ table input{
  margin-right: -125px;
 }
 
+table a{
+  text-decoration: none;
+}
+
 
 
