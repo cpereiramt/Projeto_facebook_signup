@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10pt;
-  height: 100px;
+  height: 90px;
   justify-content: space-around;
   line-height: 6pt;
   width: 100%;
@@ -25,42 +25,63 @@ section {
 }
 
 input, select {
-  font-size: 15pt;
+  font-size: 14pt;
   margin: 5px 5px 5px 0;
 }
 
-.blocoEsq {
-  color: #3b5998;
-  margin-top: -80px ;
-  margin-left: 50px ;  
-  padding: 80px 0;
-  width: 60%;
+.flex-container {
+  display: flex;
+  justify-content: space-around;
 }
-.blocoEsq p {
-  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
-  font-size: 22px;
+
+.blocoEsq {
   color: rgb(36, 66, 131);
-  margin-left: 25px;
-  margin-top: 50px;
-  margin-bottom: -70px;
-  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 14pt;
+  font-weight: 700;
+  margin: 50px 150px;
   text-overflow: initial;
-  w 
+  width: 50%;
 }
 
 .blocoDir {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  font-size: 12pt;
+  padding: 20px 80px 50px 80px;
+  width: 50%;
+}
+
+h1 {
+  font-size: 22pt;
+  line-height: 0px;
+  margin-top: 40px;
+}
+
+h3 {
+  line-height: 0px;
+  margin-top: 15px;
+}
+
+h6 {
+  color: gray;
 }
 
 .blocoDir input, select {
   border-radius: 3pt;
+  height: 30px;
 }
 
 .formCadastro {
   display: flex;
   flex-direction: column;
+}
+
+.nomeSobrenome {
+  display: flex;
+  justify-content: space-between;
 }
 
 .loginBtn {
@@ -73,34 +94,18 @@ input, select {
 
 .registerBtn {
   background-color: #60A04E;
+  border-radius: 7px;
+  color: beige;
+  font-size: 13pt;
+  padding: 5px;
+  width: 40%;
 }
 
-#flexContainer{
-display: block;
+table input {
+  width: 140px;
 }
 
-#facebook-networking{
- display: flex;
- width: 70%;
- margin-left: 70px;
- margin-right: auto;
-}
-
-.facebook-logo{
- margin-left: -40px;
- margin-right: 220px;
- padding-right: 120px;
- padding-left: 65px;
-
-}
-
-table input{
- width: 91%;
- padding-right: -15px;
- margin-right: -125px;
-}
-
-table a{
+table a {
   text-decoration: none;
 }
 
