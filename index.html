@@ -38,7 +38,7 @@
    <img src="networking.png" alt="" id="facebook-networking">
 </div>
   <div class="blocoDir">
-    <h1>Abra uma conta</h1>
+    <h1 id="abra_conta">Abra uma conta</h1>
     <h3>É rápido e fácil.</h3>
     <form class="formCadastro" action="localhost/register/">
       <div class="nomeSobrenome">
@@ -49,7 +49,8 @@
       <input type="password" name="password" placeholder="Nova senha">
       <div class="divNascimento">
         <label for="data">Data de nascimento</label>
-        <select id="data">
+         <br>
+         <select id="data">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -67,7 +68,9 @@
           <option>1992</option>
         </select>
       </div>
-      <label for="genero">Gênero
+      <label for="genero">Gênero 
+          <br>
+          <br>
         <input type="radio" id="homem" name="genero" value="1">
         <label for="homem">Masculino</label>
         <input type="radio" id="mulher" name="genero" value="2">
@@ -75,13 +78,13 @@
         <input type="radio" id="custom" name="genero" value="-1">
         <label for="custom">Personalizado</label>
       </label>
-      <p>Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+      <p id="termos">Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
       <button class="registerBtn">Cadastre-se</button>
     </form>
+    <br>
+    <br>
   </div>
 </section>
-<footer>
 
-</footer>
 </body>
 </html>
