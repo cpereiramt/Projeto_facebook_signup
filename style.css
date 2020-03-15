@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10pt;
-  height: 100px;
+  height: 90px;
   justify-content: space-around;
   line-height: 6pt;
   width: 100%;
@@ -36,46 +36,37 @@ section {
 }
 
 input, select {
-  font-size: 15pt;
+  font-size: 14pt;
   margin: 5px 5px 5px 0;
 }
 
-.blocoEsq {
-  color: #3b5998;
-  margin-top: -80px ;
-  margin-left: 50px ;  
-  padding: 80px 0;
-  width: 65%;
 }
-.blocoEsq p {
-  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
-  font-size: 22px;
+
+.blocoEsq {
   color: rgb(36, 66, 131);
-  margin-left: 25px;
-  margin-top: 50px;
-  margin-bottom: -70px;
-  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 14pt;
+  font-weight: 700;
+  margin: 50px 150px;
   text-overflow: initial;
-  
 }
 
 .blocoDir {
   display: flex;
   flex-direction: column;
-  width: 48%;
-  margin-right: 100px;
-  margin-top: -15px;
-  
-}
-
-.blocoDir input, select {
-  border-radius: 5px;
 }
 
 .formCadastro {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.nomeSobrenome {
+  display: flex;
+  justify-content: space-between;
 }
 
 .loginBtn {
@@ -88,34 +79,16 @@ input, select {
 
 .registerBtn {
   background-color: #60A04E;
+  border-radius: 7px;
+  color: beige;
+  font-size: 13pt;
+  padding: 5px;
+  width: 40%;
 }
 
-#flexContainer{
-display: block;
 }
 
-#facebook-networking{
- display: flex;
- width: 70%;
- margin-left: 90px;
- margin-right: auto;
-}
-
-.facebook-logo{
- margin-left: -70px;
- margin-right: 220px;
- padding-right: 120px;
- padding-left: -30px;
-}
-
-table input{
- width: 91%;
- padding-right: -15px;
- margin-right: -125px;
- 
-}
-
-table a{
+table a {
   text-decoration: none;
 }
 
